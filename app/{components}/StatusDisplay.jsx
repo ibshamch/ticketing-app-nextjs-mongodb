@@ -13,6 +13,7 @@ const StatusDisplay = ({ status }) => {
         return color;
     }
   };
+
   return (
     <div
       className={`flex flex-col justify-center rounded-full p-2 text-xs font-semibold text-gray-700 ${getColor(
